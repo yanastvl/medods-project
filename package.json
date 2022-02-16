@@ -1,0 +1,47 @@
+{
+  "name": "medods-project",
+  "version": "1.0.0",
+  "description": "**Используемые технологии:**\r Vue.js,\r Vuelidate,\r Sass.",
+  "main": "app.js",
+  "scripts": {
+    "serve": "webpack serve",
+    "dev": "cross-env NODE_ENV=development webpack --mode development",
+    "build": "cross-env NODE_ENV=production webpack --mode production",
+    "watch": "cross-env NODE_ENV=development webpack --mode development --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yanastvl/medods-project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yanastvl/medods-project/issues"
+  },
+  "homepage": "https://github.com/yanastvl/medods-project#readme",
+  "devDependencies": {
+    "@babel/core": "^7.17.3",
+    "@babel/preset-env": "^7.16.11",
+    "@vue/compiler-sfc": "^3.2.31",
+    "babel-loader": "^8.2.3",
+    "clean-webpack-plugin": "^4.0.0",
+    "cross-env": "^7.0.3",
+    "css-loader": "^6.6.0",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.5.0",
+    "mini-css-extract-plugin": "^2.5.3",
+    "node-sass": "^7.0.1",
+    "optimize-css-assets-webpack-plugin": "^6.0.1",
+    "sass-loader": "^12.6.0",
+    "style-loader": "^3.3.1",
+    "terser-webpack-plugin": "^5.3.1",
+    "vue": "^3.2.29",
+    "vue-loader": "^17.0.0",
+    "vue-loader-plugin": "^1.3.0",
+    "webpack": "^5.68.0",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.7.4"
+  },
+  "dependencies": {}
+}

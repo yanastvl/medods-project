@@ -1,0 +1,11 @@
+/*!*******************************************************************************************************!*\
+  !*** css ../node_modules/css-loader/dist/cjs.js!../node_modules/sass-loader/dist/cjs.js!./style.scss ***!
+  \*******************************************************************************************************/
+@font-face {
+  font-family: 'RobotoSerif';
+  src: url(29311e40e8c3ea68c641.ttf) format("truetype"); }
+
+p {
+  font-family: 'RobotoSerif', sans-serif;
+  width: 50px; }
+
